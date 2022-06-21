@@ -1,0 +1,808 @@
+{
+    "title": "Ordering Games",
+    "points": 250,
+    "questions": [
+        {
+            "id": 1,
+            "title": "Exercise 1",
+            "instructions": "You must order four colors (Red, Orange, Yellow, and Green). However, you are initially given one rule:",
+            "subInstructions": "\nPlease fill out the diagram below so that it accurately displays where the colors cannot go.",
+            "rules": [
+                "Rule #1: The colors CANNOT go in the original R-O-Y-G order."
+            ],
+            "explanation": "Congratulations on finishing Exercise 1! When doing ordering and sequencing games, you want to make sure that you strikethrough options and place them beneath the spots where they CANNOT go. This will help you keep track of everything when questions get complicated.",
+            "time": 0,
+            "lives": 3,
+            "manipulatives": [
+                {
+                    "text": "R",
+                    "x": 6,
+                    "y": 400
+                },
+                {
+                    "text": "O",
+                    "x": 235.3,
+                    "y": 400
+                },
+                {
+                    "text": "Y",
+                    "x": 464.6,
+                    "y": 400
+                },
+                {
+                    "text": "G",
+                    "placed": true,
+                    "x": 694,
+                    "y": 400
+                }
+            ],
+            "dropZones": [
+                {
+                    "text": "R",
+                    "description": "Please drag and drop into this slot the first letter of the color that CANNOT go here.",
+                    "hint": "Which color CANNOT be placed first? Remember that the colors CANNOT go in their original R-O-Y-G order.",
+                    "explanation": "Correct! Red CANNOT be placed first so the R label should be placed here!.",
+                    "strikethrough": true,
+                    "x": 6,
+                    "y": 860
+                },
+                {
+                    "text": "O",
+                    "description": "Please drag and drop into this slot the first letter of the color that CANNOT go here.",
+                    "hint": "Which color CANNOT be placed second? Remember that the colors CANNOT go in their original R-O-Y-G order.",
+                    "explanation": "Correct! Orange CANNOT be placed second so the O label should be placed here!",
+                    "strikethrough": true,
+                    "x": 235.3,
+                    "y": 860
+                },
+                {
+                    "text": "Y",
+                    "description": "Please drag and drop into this slot the first letter of the color that CANNOT go here.",
+                    "hint": "Which color CANNOT be placed third? Remember that the colors CANNOT go in their original R-O-Y-G order.",
+                    "explanation": "Correct! Yellow CANNOT be placed third so the Y label should be placed here!",
+                    "strikethrough": true,
+                    "x": 464.6,
+                    "y": 860
+                },
+                {
+                    "text": "G",
+                    "description": "Please drag and drop into this slot the first letter of the color that CANNOT go here.",
+                    "hint": "Which color CANNOT be placed fourth? Remember that the colors CANNOT go in their original R-O-Y-G order.",
+                    "explanation": "Correct! Green CANNOT be placed fourth so the G label should be placed here!",
+                    "strikethrough": true,
+                    "prefilled": true,
+                    "x": 694,
+                    "y": 860
+                }
+            ],
+            "diagrams": [
+                {
+                    "id": "Diagram1",
+                    "x": 6,
+                    "y": 244
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Exercise 2",
+            "instructions": "You are ordering the colors Red, Orange, Yellow, and Green. However, you now have two rules:",
+            "subInstructions": "\nPlease place the Red (R) and Green (G) labels into the slots of the correct diagram which properly represents Rule #2. For the incorrect diagram, leave it blank.",
+            "rules": [
+                "Rule #1: The colors CANNOT go in the original R-O-Y-G order.",
+                "Rule #2: Red MUST be placed IMMEDIATELY BEFORE Green."
+            ],
+            "explanation": "Remember that when dealing with rules about fixed relationships, you always want to box your diagrams with brackets. If you connect two items with a line but with no box, that means you are creating a relative relationship with the larger values on the left or top.",
+            "time": 60,
+            "lives": 2,
+            "manipulatives": [
+                {
+                    "text": "R",
+                    "x": 235.3,
+                    "y": 300
+                },
+                {
+                    "text": "G",
+                    "x": 464.6,
+                    "y": 300
+                }
+            ],
+            "dropZones": [
+                {
+                    "text": "R",
+                    "description": "If this is the correct diagram, please drag and drop the correct color into this spot.",
+                    "hint": "Which color must go immediately before another color according to the new rule? The color that comes first should be on the left side of this box.",
+                    "explanation": "Correct! According to Rule #2, Red MUST be placed IMMEDIATELY BEFORE Green, so the R label should be placed here.",
+                    "strikethrough": false,
+                    "x": 235.3,
+                    "y": 570
+                },
+                {
+                    "text": "G",
+                    "description": "If this is the correct diagram, please drag and drop the correct color into this spot.",
+                    "hint": "Which color must go immediately after another color according to the new rule? The color that comes second should be on the right side of this box.",
+                    "explanation": "Correct! According to Rule #2, Red MUST be placed IMMEDIATELY BEFORE Green, so the G label should be placed here.",
+                    "strikethrough": false,
+                    "x": 464.6,
+                    "y": 570
+                },
+                {
+                    "text": "",
+                    "texts": null,
+                    "subtext": null,
+                    "description": "If this is the correct diagram, please drag and drop the correct color into this spot.",
+                    "hint": "",
+                    "explanation": "This is the incorrect diagram so this should be left blank!",
+                    "strikethrough": false,
+                    "prefilled": false,
+                    "x": 93,
+                    "y": 920
+                },
+                {
+                    "text": "",
+                    "texts": null,
+                    "subtext": null,
+                    "description": "If this is the correct diagram, please drag and drop the correct color into this spot.",
+                    "hint": "",
+                    "explanation": "This is the incorrect diagram so this should be left blank!",
+                    "strikethrough": false,
+                    "prefilled": false,
+                    "x": 605,
+                    "y": 920
+                }
+            ],
+            "diagrams": [
+                {
+                    "id": "Diagram2",
+                    "x": 95,
+                    "y": 530
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Exercise 3",
+            "instructions": "Now that you have mastered diagramming Rule #1, please the following rules to fill out the Game Board:",
+            "subInstructions": "\nCreate new rules by combining Rule #1 and Rule #2.\nPlace where R and G cannot go.",
+            "rules": [
+                "Rule #1: The colors CANNOT go in the original R-O-Y-G order.",
+                "Rule #2: Red MUST be placed IMMEDIATELY BEFORE Green."
+            ],
+            "explanation": "Good job! For these exercises sometimes a position on the Game Board will already filled in order to help you understand a concept, but do not expect a similar assistance on the LSAT.",
+            "time": 90,
+            "lives": 3,
+            "manipulatives": [
+                {
+                    "text": "R",
+                    "x": 225,
+                    "y": 250
+                },
+                {
+                    "text": "R",
+                    "x": 225,
+                    "y": 250
+                },
+                {
+                    "text": "G",
+                    "x": 475,
+                    "y": 250
+                },
+                {
+                    "text": "G",
+                    "x": 475,
+                    "y": 250
+                }
+            ],
+            "dropZones": [
+                {
+                    "text": "R",
+                    "description": "",
+                    "hint": "",
+                    "explanation": "",
+                    "strikethrough": true,
+                    "prefilled": true,
+                    "x": 6,
+                    "y": 642
+                },
+                {
+                    "text": "O",
+                    "description": "",
+                    "hint": "",
+                    "explanation": "",
+                    "strikethrough": true,
+                    "prefilled": true,
+                    "x": 235.3,
+                    "y": 642
+                },
+                {
+                    "text": "Y",
+                    "description": "",
+                    "hint": "",
+                    "explanation": "",
+                    "strikethrough": true,
+                    "prefilled": true,
+                    "x": 464.6,
+                    "y": 642
+                },
+                {
+                    "text": "G",
+                    "description": "",
+                    "hint": "",
+                    "explanation": "",
+                    "strikethrough": true,
+                    "prefilled": true,
+                    "x": 694,
+                    "y": 642
+                },
+                {
+                    "divider": "//////////////////////////////////////////////////////////",
+                    "text": "G",
+                    "description": "These spots are reserved for where the colors CAN go.",
+                    "hint": "",
+                    "explanation": "You can't have G in the first position because it needs to come after R.",
+                    "strikethrough": true,
+                    "x": 6,
+                    "y": 775
+                },
+                {
+                    "text": "G",
+                    "description": "Please drag and drop into this slot the first letter of the color that CANNOT go here.",
+                    "hint": "",
+                    "explanation": "You can't have G in the second position because it needs to come after R, and R is precluded from the first spot by our earlier question's deduction.",
+                    "strikethrough": true,
+                    "x": 235.3,
+                    "y": 775
+                },
+                {
+                    "text": "R",
+                    "description": "These spots are reserved for where the colors CAN go.",
+                    "hint": "",
+                    "explanation": "You can't have R in the third position because it needs to come before G, and G is precluded from the fourth position by our earlier question's deduction.",
+                    "strikethrough": true,
+                    "x": 464.6,
+                    "y": 775
+                },
+                {
+                    "text": "R",
+                    "description": "These spots are reserved for where the colors CAN go.",
+                    "hint": "",
+                    "explanation": "You can't have R in the fourth position because it needs to come before G.",
+                    "strikethrough": true,
+                    "x": 694,
+                    "y": 775
+                }
+            ],
+            "diagrams": [
+                {
+                    "id": "Diagram3",
+                    "x": 6,
+                    "y": 500
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Exercise 4",
+            "instructions": "You are ordering the colors Red, Orange, Yellow, and Green. However, you now have three rules that you must abide by while ordering:",
+            "subInstructions": "\nPlease place the Red (R) and Orange (O) into the slots of the correct diagram which properly represents Rule #3. For the incorrect diagram, leave it blank.",
+            "rules": [
+                "Rule #1: The colors CANNOT go in the original R-O-Y-G order.",
+                "Rule #2: Red MUST be placed IMMEDIATELY BEFORE Green.",
+                "Rule #3: Orange MUST be placed SOMETIME AFTER Red."
+            ],
+            "explanation": "For relative relationships such as the one in Rule #3, you want to draw a connective line between the listed items. You put the larger/first item on the left side and the smaller/second item on the right side.",
+            "time": 60,
+            "lives": 2,
+            "manipulatives": [
+                {
+                    "text": "R",
+                    "x": 130,
+                    "y": 300
+                },
+                {
+                    "text": "O",
+                    "x": 570,
+                    "y": 300
+                }
+            ],
+            "dropZones": [
+                {
+                    "text": "",
+                    "description": "If this is the correct diagram, please drag and drop the correct color into this spot.",
+                    "hint": "",
+                    "explanation": "This is the incorrect diagram so this should be left blank!",
+                    "strikethrough": false,
+                    "x": 120,
+                    "y": 548
+                },
+                {
+                    "text": "",
+                    "description": "If this is the correct diagram, please drag and drop the correct color into this spot.",
+                    "hint": "",
+                    "explanation": "This is the incorrect diagram so this should be left blank!",
+                    "strikethrough": false,
+                    "x": 580,
+                    "y": 548
+                },
+                {
+                    "text": "R",
+                    "description": "If this is the correct diagram, please drag and drop the correct color into this spot.",
+                    "hint": "Will Orange be placed before or after Red according to Rule #3?",
+                    "explanation": "Correct! Red must be placed first since according to Rule #3, Orange must be placed sometime after Red.",
+                    "strikethrough": false,
+                    "x": 130,
+                    "y": 932
+                },
+                {
+                    "text": "O",
+                    "description": "If this is the correct diagram, please drag and drop the correct color into this spot.",
+                    "hint": "Will Orange be placed before or after Red according to Rule #3?",
+                    "explanation": "Correct! Orange must be placed second since according to Rule #3, Orange must be placed sometime after Red.",
+                    "strikethrough": false,
+                    "x": 570,
+                    "y": 932
+                }
+            ],
+            "diagrams": [
+                {
+                    "id": "Diagram4",
+                    "x": 110,
+                    "y": 510
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Exercise 5",
+            "instructions": "Now that you have mastered diagramming Rule #3, please fill out the Game Board in accordance with all rules thus far mentioned:",
+            "subInstructions": "\nThe diagrams and Game Board from previous exercises have been provided.",
+            "rules": [
+                "Rule #1: The colors CANNOT go in the original R-O-Y-G order.",
+                "Rule #2: Red MUST be placed IMMEDIATELY BEFORE Green.",
+                "Rule #3: Orange MUST be placed SOMETIME AFTER Red."
+            ],
+            "explanation": "Congratulations on filling out the Game Board! As you can see, sometimes there is only one way to solve a game board. Future exercises will change up some existing rules to make it more complicated.",
+            "time": 90,
+            "lives": 3,
+            "manipulatives": [
+                {
+                    "text": "R",
+                    "x": 6,
+                    "y": 280
+                },
+                {
+                    "text": "O",
+                    "x": 235.3,
+                    "y": 280
+                },
+                {
+                    "text": "Y",
+                    "x": 464.6,
+                    "y": 280
+                },
+                {
+                    "text": "G",
+                    "x": 694,
+                    "y": 280
+                }
+            ],
+            "dropZones": [
+                {
+                    "text": "Y",
+                    "description": "Please drag and drop the correct color that CAN go into this spot.",
+                    "hint": "Which color does not need to come after Red?",
+                    "explanation": "Correct! Yellow is the only color that can go into Spot #1.",
+                    "strikethrough": false,
+                    "x": 6,
+                    "y": 436
+                },
+                {
+                    "text": "R",
+                    "description": "Please drag and drop the correct color that CAN go into this spot.",
+                    "hint": "Which color must come before two other colors but cannot be in Spot #1?",
+                    "explanation": "Correct! Red is the only color that can go into Spot #2. Green and Orange must come after Red, and Yellow must be in the first spot.",
+                    "strikethrough": false,
+                    "prefilled": false,
+                    "x": 235.3,
+                    "y": 436
+                },
+                {
+                    "text": "G",
+                    "description": "Please drag and drop the correct color that CAN go into this spot.",
+                    "hint": "Which color has to have at least one color immediately in front of it?",
+                    "explanation": "Correct! Green is the only color that can go into Spot #3. Green must go between Red and Orange according to Rules #2 and #3.",
+                    "strikethrough": false,
+                    "prefilled": false,
+                    "x": 464.6,
+                    "y": 436
+                },
+                {
+                    "text": "O",
+                    "description": "Please drag and drop the correct color that CAN go into this spot.",
+                    "hint": "Plug the diagrams for Rule #2 and Rule #3 into the Game Board, which color is last?",
+                    "explanation": "Correct! Orange is the only color that can go into Spot #4 since it must come after both Red and Green.",
+                    "strikethrough": false,
+                    "prefilled": false,
+                    "x": 694,
+                    "y": 436
+                },
+                {
+                    "text": "R",
+                    "description": "",
+                    "hint": "",
+                    "explanation": "",
+                    "strikethrough": true,
+                    "prefilled": true,
+                    "x": 6,
+                    "y": 676
+                },
+                {
+                    "text": "O",
+                    "description": "",
+                    "hint": "",
+                    "explanation": "",
+                    "strikethrough": true,
+                    "prefilled": true,
+                    "x": 235.3,
+                    "y": 676
+                },
+                {
+                    "text": "Y",
+                    "description": "",
+                    "hint": "",
+                    "explanation": "",
+                    "strikethrough": true,
+                    "prefilled": true,
+                    "x": 464.6,
+                    "y": 676
+                },
+                {
+                    "text": "G",
+                    "description": "",
+                    "hint": "",
+                    "explanation": "",
+                    "strikethrough": true,
+                    "prefilled": true,
+                    "x": 694,
+                    "y": 676
+                }
+            ],
+            "diagrams": [
+                {
+                    "id": "Diagram5",
+                    "x": 6,
+                    "y": 534
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Exercise 6",
+            "instructions": "You are ordering the colors Red, Orange, Yellow, and Green. Rule #2 from the previous exercises has now been changed. The three rules are now:",
+            "subInstructions": "\nPlease place the Red (R) and Green (G) into the slots of the correct diagram which  represents the new Rule #2. For the incorrect diagram, leave it blank.",
+            "rules": [
+                "Rule #1: The colors CANNOT go in the original R-O-Y-G order.",
+                "Rule #2: Red MUST be placed either IMMEDIATELY BEFORE or IMMEDIATELY AFTER Green.",
+                "Rule #3: Orange MUST be placed SOMETIME AFTER Red."
+            ],
+            "explanation": "When you have to create a diagram that represents a fixed relationship that also allows for two items to swap places, you want to use brackets and a curved arrow on the top to signify that.",
+            "time": 90,
+            "lives": 3,
+            "manipulatives": [
+                {
+                    "text": "R",
+                    "x": 130,
+                    "y": 340
+                },
+                {
+                    "text": "G",
+                    "x": 570,
+                    "y": 340
+                }
+            ],
+            "dropZones": [
+                {
+                    "texts": [
+                        "R",
+                        "G"
+                    ],
+                    "description": "If this is the correct diagram, please drag and drop the correct color into this spot.",
+                    "hint": "Does order matter when the positions can be switched?",
+                    "explanation": "Correct! Either Red or Green can be placed first in this box to represent the new Rule #2 since there is a curved arrow at the top! The curved arrow means that the two items can swap places.",
+                    "strikethrough": false,
+                    "x": 220.25,
+                    "y": 598
+                },
+                {
+                    "texts": [
+                        "G",
+                        "R"
+                    ],
+                    "description": "If this is the correct diagram, please drag and drop the correct color into this spot.",
+                    "hint": "Does order matter when the positions can be switched?",
+                    "explanation": "Correct! Either Red or Green can be placed first in this box to represent the new Rule #2 since there is a curved arrow at the top! The curved arrow means that the two items can swap places.",
+                    "strikethrough": false,
+                    "x": 480.25,
+                    "y": 598
+                },
+                {
+                    "text": "",
+                    "description": "If this is the correct diagram, please drag and drop the correct color into this spot.",
+                    "hint": "",
+                    "explanation": "This is the incorrect diagram so this should be left blank!",
+                    "strikethrough": false,
+                    "x": 130.65,
+                    "y": 958
+                },
+                {
+                    "text": "",
+                    "description": "If this is the correct diagram, please drag and drop the correct color into this spot.",
+                    "hint": "",
+                    "explanation": "This is the incorrect diagram so this should be left blank!",
+                    "strikethrough": false,
+                    "x": 570.65,
+                    "y": 958
+                }
+            ],
+            "diagrams": [
+                {
+                    "id": "Diagram6",
+                    "x": 110,
+                    "y": 500
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Exercise 7",
+            "instructions": "You are ordering the colors Red, Orange, Yellow, and Green. The three rules are:",
+            "subInstructions": "\nPlease solve the Game Board given that Green has been placed in Spot #2. The diagrams from previous questions have been included in order to assist you.",
+            "rules": [
+                "Rule #1: The colors CANNOT go in the original R-O-Y-G order.",
+                "Rule #2: Red MUST be placed either IMMEDIATELY BEFORE or IMMEDIATELY AFTER Green.",
+                "Rule #3: Orange MUST be placed SOMETIME AFTER Red."
+            ],
+            "explanation": "Congratulations on completing the Game Board for this question!",
+            "time": 90,
+            "lives": 3,
+            "manipulatives": [
+                {
+                    "text": "R",
+                    "x": 6,
+                    "y": 320
+                },
+                {
+                    "text": "O",
+                    "x": 235.3,
+                    "y": 320
+                },
+                {
+                    "text": "Y",
+                    "x": 464.6,
+                    "y": 320
+                },
+                {
+                    "text": "G",
+                    "x": 694,
+                    "y": 320,
+                    "placed": true
+                }
+            ],
+            "dropZones": [
+                {
+                    "text": "Y",
+                    "description": "Please drag and drop into this slot the first letter of the color that can go here.",
+                    "hint": "Which color is restricted from this spot according to Rule #1? What does Rule #3 say about the placement of Red and Orange?",
+                    "explanation": "Correct! Yellow is the only color that can go into this position.",
+                    "strikethrough": false,
+                    "prefilled": false,
+                    "x": 6,
+                    "y": 500
+                },
+                {
+                    "text": "G",
+                    "description": "",
+                    "hint": "",
+                    "explanation": "",
+                    "strikethrough": false,
+                    "prefilled": true,
+                    "x": 235.3,
+                    "y": 500
+                },
+                {
+                    "text": "R",
+                    "description": "Please drag and drop into this slot the first letter of the color that can go here.",
+                    "hint": "Can there be a space separating Red and Green? What spots can Red not go into?",
+                    "explanation": "Correct! Red is the only color that can go into this position.",
+                    "strikethrough": false,
+                    "prefilled": false,
+                    "x": 464.6,
+                    "y": 500
+                },
+                {
+                    "text": "O",
+                    "description": "Please drag and drop into this slot the first letter of the color that can go here.",
+                    "hint": "Can there be a space separating Red and Green? Can Orange precede all colors?",
+                    "explanation": "Correct! Orange is the only color that can go into this position.",
+                    "strikethrough": false,
+                    "prefilled": false,
+                    "x": 694,
+                    "y": 500
+                },
+                {
+                    "text": "R",
+                    "description": "",
+                    "hint": "",
+                    "explanation": "",
+                    "strikethrough": true,
+                    "prefilled": true,
+                    "x": 6,
+                    "y": 740
+                },
+                {
+                    "text": "O",
+                    "description": "",
+                    "hint": "",
+                    "explanation": "",
+                    "strikethrough": true,
+                    "prefilled": true,
+                    "x": 235.3,
+                    "y": 740
+                },
+                {
+                    "text": "Y",
+                    "description": "",
+                    "hint": "",
+                    "explanation": "",
+                    "strikethrough": true,
+                    "prefilled": true,
+                    "x": 464.6,
+                    "y": 740
+                },
+                {
+                    "text": "G",
+                    "description": "",
+                    "hint": "",
+                    "explanation": "",
+                    "strikethrough": true,
+                    "prefilled": true,
+                    "x": 694,
+                    "y": 740
+                }
+            ],
+            "diagrams": [
+                {
+                    "id": "Diagram7",
+                    "x": 6,
+                    "y": 598
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Exercise 8",
+            "instructions": "You are ordering the colors Red, Orange, Yellow, and Green. The three rules are:",
+            "subInstructions": "\nPlease solve the Game Board given that Yellow has been placed in Spot #4. The diagrams from previous questions have been included in order to assist you.",
+            "rules": [
+                "Rule #1: The colors CANNOT go in the original R-O-Y-G order.",
+                "Rule #2: Red MUST be placed either IMMEDIATELY BEFORE or IMMEDIATELY AFTER Green.",
+                "Rule #3: Orange MUST be placed SOMETIME AFTER Red."
+            ],
+            "explanation": "Congratulations on completing the Game Board for this question!",
+            "time": 90,
+            "lives": 3,
+            "manipulatives": [
+                {
+                    "text": "R",
+                    "x": 6,
+                    "y": 320
+                },
+                {
+                    "text": "O",
+                    "x": 235.3,
+                    "y": 320
+                },
+                {
+                    "text": "Y",
+                    "x": 464.6,
+                    "y": 320,
+                    "placed": true
+                },
+                {
+                    "text": "G",
+                    "x": 694,
+                    "y": 320
+                }
+            ],
+            "dropZones": [
+                {
+                    "text": "G",
+                    "description": "Please drag and drop into this slot the first letter of the color that can go here.",
+                    "hint": "Can orange be placed before every other color? What does Rule #1 say about color placement?",
+                    "explanation": "Correct! Green is the only color that can go into this position.",
+                    "strikethrough": false,
+                    "prefilled": false,
+                    "x": 6,
+                    "y": 500
+                },
+                {
+                    "text": "R",
+                    "description": "Please drag and drop into this slot the first letter of the color that can go here.",
+                    "hint": "Can Red and Green have an open spot between them? What does Rule #3 say about the relationship between Red and Orange?",
+                    "explanation": "Correct! Red is the only color that can go into this position.",
+                    "strikethrough": false,
+                    "prefilled": false,
+                    "x": 235.3,
+                    "y": 500
+                },
+                {
+                    "text": "O",
+                    "description": "Please drag and drop into this slot the first letter of the color that can go here.",
+                    "hint": "Can Red or Green go into this position while still obeying Rule #3?",
+                    "explanation": "Correct! Orange is the only color that can go into this position.",
+                    "strikethrough": false,
+                    "prefilled": false,
+                    "x": 464.6,
+                    "y": 500
+                },
+                {
+                    "text": "Y",
+                    "description": "",
+                    "hint": "",
+                    "explanation": "",
+                    "strikethrough": false,
+                    "prefilled": true,
+                    "x": 694,
+                    "y": 500
+                },
+                {
+                    "text": "R",
+                    "description": "",
+                    "hint": "",
+                    "explanation": "",
+                    "strikethrough": true,
+                    "prefilled": true,
+                    "x": 6,
+                    "y": 740
+                },
+                {
+                    "text": "O",
+                    "description": "",
+                    "hint": "",
+                    "explanation": "",
+                    "strikethrough": true,
+                    "prefilled": true,
+                    "x": 235.3,
+                    "y": 740
+                },
+                {
+                    "text": "Y",
+                    "description": "",
+                    "hint": "",
+                    "explanation": "",
+                    "strikethrough": true,
+                    "prefilled": true,
+                    "x": 464.6,
+                    "y": 740
+                },
+                {
+                    "text": "G",
+                    "description": "",
+                    "hint": "",
+                    "explanation": "",
+                    "strikethrough": true,
+                    "prefilled": true,
+                    "x": 694,
+                    "y": 740
+                }
+            ],
+            "diagrams": [
+                {
+                    "id": "Diagram7",
+                    "x": 6,
+                    "y": 598
+                }
+            ]
+        }
+    ]
+}
